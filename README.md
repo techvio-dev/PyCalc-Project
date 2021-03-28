@@ -1,8 +1,21 @@
+![GitHub](https://img.shields.io/github/license/techvio1/Pycalc-Project)
+![GitHub language count](https://img.shields.io/github/languages/count/techvio1/Pycalc-Project)
+![GitHub top language](https://img.shields.io/github/languages/top/techvio1/Pycalc-Project)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/techvio1/Pycalc-Project)
+![GitHub repo size](https://img.shields.io/github/repo-size/techvio1/Pycalc-Project)
+![GitHub issues](https://img.shields.io/github/issues/techvio1/Pycalc-Project?color=red)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/techvio1/Pycalc-Project)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/techvio1/Pycalc-Project?color=red)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/techvio1/Pycalc-Project)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/techvio1/Pycalc-Project/CLI-Stable)
+![GitHub watchers](https://img.shields.io/github/watchers/techvio1/Pycalc-Project?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/techvio1/Pycalc-Project?style=social)
+
 > # PyCalc-Project
 
-> # A Powerful Calculator Written in Python
+# A Powerful Calculator Written in Python
 
-> # Operations:
+# Operations:
 
         *   Addition: +
         *   Subtraction: -
@@ -12,10 +25,10 @@
         *   Exponentiation: **   
         *   Floor division: //   
 
-> # Dependicies: #
-Python 3.x
+# Dependicies: #
+*   Python 3.x
 
-> # How To Get The Program And Run it:
+# How To Get The Program And Run it:
 
 ## for now, we didn't developed a setup for using the program directly, you can use the classical way:
 
@@ -35,9 +48,7 @@ Example on Windows:
 
         python3 C:\Users\YourUsernameOnWindows\Downloads\Pycalc-Project\main.py
 
-> These Are Just Examples
-
-> ## if it's not working check your installed version of python (make sure you have python 3.x)
+## if it's not working check your installed version of python (make sure you have python 3.x)
 
 > Supported Devices:
 
@@ -45,6 +56,6 @@ Example on Windows:
 *   Windows
 *   Android (Coming Soon)
 
-> License:
+License:
 
 MIT License: https://mit-license.org/
