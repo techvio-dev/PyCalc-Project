@@ -30,8 +30,6 @@
 
 # How To Get The Program And Run it:
 
-## for now, we didn't developed a setup for using the program directly, you can use the classical way:
-
 Clone The source code:
 
         git clone https://github.com/techvio1/PyCalc-Project/
