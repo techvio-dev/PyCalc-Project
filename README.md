@@ -52,7 +52,7 @@ Example on Windows:
 
 *   Linux
 *   Windows
-*   Android (Coming Soon)
+*   Android (Under Testing)
 
 License:
 
