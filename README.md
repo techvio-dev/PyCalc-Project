@@ -40,11 +40,11 @@ Run The Program using python interpreter:
 
 Example on linux:
 
-        python3 /home/YourUsernameOnLinux/Downloads/Pycalc-Project/main.py
+        python3 /home/YourLinuxUsername/Downloads/Pycalc-Project/main.py
         
 Example on Windows:
 
-        python3 C:\Users\YourUsernameOnWindows\Downloads\Pycalc-Project\main.py
+        python3 C:\Users\YourWindowsUsername\Downloads\Pycalc-Project\main.py
 
 ## if it's not working check your installed version of python (make sure you have python 3.x)
 
