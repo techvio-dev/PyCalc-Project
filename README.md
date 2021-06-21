@@ -24,7 +24,7 @@
         *   Modulus: %
         *   Exponentiation: **   
         *   Floor division: //   
-
+        *   Square root Mode ( Coming Soon )
 # Dependicies: #
 *   Python 3.x
 
