@@ -11,7 +11,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/techvio1/Pycalc-Project?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/techvio1/Pycalc-Project?style=social)
 
-> # PyCalc-Project Developers Preview (Unstable)
+> # PyCalc-Project Daily Branch (Untested-Unstable)
 
 # A Powerful Calculator Written in Python
 
@@ -30,7 +30,6 @@
 
 # How To Get The Program And Run it:
 
-## for now, we didn't developed a setup for using the program directly, you can use the classical way:
 
 Clone The source code:
 
