@@ -11,7 +11,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/techvio1/Pycalc-Project?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/techvio1/Pycalc-Project?style=social)
 
-> # PyCalc-Project Daily Branch (Untested-Unstable)
+> # PyCalc-Project Daily Branch (Untested And Unstable)
 
 # A Powerful Calculator Written in Python
 
