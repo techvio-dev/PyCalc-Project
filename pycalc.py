@@ -1,6 +1,5 @@
 import sys
 import time
-import math
 
 decore = "==============================="
 byetext = "\n\nThanks For Using Our Program\n\nExiting..."
@@ -133,11 +132,7 @@ def calc():
             print(byetext)
             time.sleep(0.5)
             sys.exit()
-    elif operation == "Test Feature":
-        result = math.sqrt(36)
-        print(result)
-        print("Bye")
-    else:
+        else:
         time.sleep(0.5)
         print("Error: Incorrect Operation:")
         time.sleep(0.5)
