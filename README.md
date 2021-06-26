@@ -27,10 +27,10 @@
 
 # Dependicies: #
 *   Python 3.x
+*   Math Library
 
 # How To Get The Program And Run it:
 
-## for now, we didn't developed a setup for using the program directly, you can use the classical way:
 
 Clone The source code:
 
@@ -50,11 +50,10 @@ Example on Windows:
 
 ## if it's not working check your installed version of python (make sure you have python 3.x)
 
-> Supported Devices:
+> Tested on:
 
-*   Linux
-*   Windows
-*   Android (Coming Soon)
+*   Linux (Debian)
+*   Windows 10
 
 License:
 
