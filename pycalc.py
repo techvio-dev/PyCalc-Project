@@ -2,7 +2,7 @@ import sys
 import time
 
 decore = "==============================="
-byetext = "\n\nThanks For Using Our Program\n\nExiting..."
+byetext = "\n\nThank you For Using Our Program\n\nExiting..."
 print(decore)
 print("\nWelcome To PyCalc Project: CLI Edition\n")
 print(decore)
@@ -15,7 +15,7 @@ time.sleep(0.5)
 print(decore)
 print("Project Link: https://www.github.com/techvio1/PyCalc-Project/")
 print(decore)
-time.sleep(3)
+time.sleep(1)
 print("License: MIT License: https://mit-license.org/")
 print(decore)
 time.sleep(0.2)
@@ -44,10 +44,7 @@ def calc():
             time.sleep(1.0)
             calc()
         else:
-            time.sleep(0.5)
-            print(byetext)
-            time.sleep(0.5)
-            sys.exit()
+            console()
     elif operation == "+":
         result = float(num1 + num2)
         print(result)
@@ -58,10 +55,7 @@ def calc():
             time.sleep(1.0)
             calc()
         else:
-            time.sleep(0.5)
-            print(byetext)
-            time.sleep(0.5)
-            sys.exit()
+            console()
     elif operation == "-":
         result = float(num1 - num2)
         print(result)
@@ -72,10 +66,7 @@ def calc():
             time.sleep(1.0)
             calc()
         else:
-            time.sleep(0.5)
-            print(byetext)
-            time.sleep(0.5)
-            sys.exit()
+            console()
     elif operation == "/":
         result = float(num1 / num2)
         print(result)
@@ -86,10 +77,7 @@ def calc():
             time.sleep(1.0)
             calc()
         else:
-            time.sleep(0.5)
-            print(byetext)
-            time.sleep(0.5)
-            sys.exit()
+            console()
     elif operation == "%":
         result = float(num1 % num2)
         print(result)
@@ -100,10 +88,7 @@ def calc():
             time.sleep(1.0)
             calc()
         else:
-            time.sleep(0.5)
-            print(byetext)
-            time.sleep(0.5)
-            sys.exit()
+            console()
     elif operation == "**":
         result = float(num1 ** num2)
         print(result)
@@ -114,10 +99,7 @@ def calc():
             time.sleep(1.0)
             calc()
         else:
-            time.sleep(0.5)
-            print(byetext)
-            time.sleep(0.5)
-            sys.exit()
+            console()
     elif operation == "//":
         result = float(num1 // num2)
         print(result)
@@ -128,11 +110,8 @@ def calc():
             time.sleep(1.0)
             calc()
         else:
-            time.sleep(0.5)
-            print(byetext)
-            time.sleep(0.5)
-            sys.exit()
-        else:
+            console()
+    else:
         time.sleep(0.5)
         print("Error: Incorrect Operation:")
         time.sleep(0.5)
@@ -155,11 +134,26 @@ def calc():
         calc()
 
 
-#under developement
-
 def squareroot():
     from math import sqrt
-    print("Uncompleted, Coming Soon")
+    num = float(input("Enter A Number: "))
+    result = sqrt(num)
+    print(result)
+    request = input("Do you want to do another square root operation ? (y/n/q): ")
+    if request == 'y':
+        squareroot()
+    elif request == 'n':
+        console()
+    elif request == 'q':
+        time.sleep(0.5)
+        print(byetext)
+        time.sleep(0.5)
+        sys.exit()
+    else:
+        print("Incorrect Parameter, back to console")
+        time.sleep(1.5)
+        console()
+
 
 def console():
     calculator_mode = input("Select Calculator Mode: ")
@@ -167,15 +161,26 @@ def console():
         print(decore)
         print('square root mode: "sqrt"')
         print('normal Calculator Mode: "calc"')
+        print('console version: "version"')
         print(decore)
         console()
     elif calculator_mode == "calc":
         calc()
     elif calculator_mode == "sqrt":
         squareroot()
+    elif calculator_mode == "version":
+        print("pycalc console v1.0 build 062621")
+        console()
+    elif calculator_mode == "exit":
+        time.sleep(0.5)
+        print(byetext)
+        time.sleep(0.5)
+        sys.exit()
     else:
         print(decore)
         print("Incorrect mode: Type 'help' for more information")
         print(decore)
         console()
+
+
 console()
