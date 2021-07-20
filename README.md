@@ -11,9 +11,9 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/techvio1/Pycalc-Project?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/techvio1/Pycalc-Project?style=social)
 
-> # PyCalc-Project Daily Branch (Untested And Unstable)
+> # PyCalc-Project Unstable Branch (Untested)
 
-# A Powerful Calculator Written in Python
+# A powerful calculator written in python
 
 # Operations:
 
@@ -24,7 +24,7 @@
         *   Modulus: %
         *   Exponentiation: **   
         *   Floor division: //   
-        *   Square root Mode ( Coming Soon )
+        *   Square root Mode
 # Dependicies: #
 *   Python 3.x
 
@@ -49,11 +49,10 @@ Example on Windows:
 
 ## if it's not working check your installed version of python (make sure you have python 3.x)
 
-> Supported Devices:
+> Supported in:
 
 *   Linux
 *   Windows
-*   Android (Under Testing)
 
 License:
 
