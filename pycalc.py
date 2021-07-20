@@ -7,8 +7,8 @@ print(decore)
 print("\nWelcome To PyCalc Project: CLI Edition\n")
 print(decore)
 time.sleep(0.2)
-print("\nVersion:5.0\n")
-print("Branch: Developers Preview")
+print("\nVersion:5.1\n")
+print("Branch: Dev")
 print(decore)
 print("Copyright © 2021 TechVio")
 time.sleep(0.5)
@@ -38,78 +38,155 @@ def calc():
         result = float(num1 * num2)
         print(result)
         time.sleep(0.5)
-        request = input("Do you want to do another operation (y/n): ")
+        request = input("Do you want to do another operation (y/n/q): ")
         if request == "y":
             print("Please Wait...")
             time.sleep(1.0)
             calc()
+        elif request == 'n':
+            print("Back To Console")
+            time.sleep(1)
+            console()
+        elif request == 'q':
+            time.sleep(0.5)
+            print(byetext)
+            time.sleep(0.5)
+            sys.exit()
         else:
+            print("Incorrect Parameter, back to console")
+            time.sleep(1.5)
             console()
     elif operation == "+":
         result = float(num1 + num2)
         print(result)
         time.sleep(0.5)
-        request = input("Do you want to do another operation (y/n): ")
+        request = input("Do you want to do another operation (y/n/q): ")
         if request == "y":
             print("Please Wait...")
             time.sleep(1.0)
             calc()
+        elif request == 'n':
+            print("Back To Console")
+            time.sleep(1)
+            console()
+        elif request == 'q':
+            time.sleep(0.5)
+            print(byetext)
+            time.sleep(0.5)
+            sys.exit()
         else:
+            print("Incorrect Parameter, back to console")
+            time.sleep(1.5)
             console()
     elif operation == "-":
         result = float(num1 - num2)
         print(result)
         time.sleep(0.5)
-        request = input("Do you want to do another operation (y/n): ")
+        request = input("Do you want to do another operation (y/n/q): ")
         if request == "y":
             print("Please Wait...")
             time.sleep(1.0)
             calc()
+        elif request == 'n':
+            print("Back To Console")
+            time.sleep(1)
+            console()
+        elif request == 'q':
+            time.sleep(0.5)
+            print(byetext)
+            time.sleep(0.5)
+            sys.exit()
         else:
+            print("Incorrect Parameter, back to console")
+            time.sleep(1.5)
             console()
     elif operation == "/":
         result = float(num1 / num2)
         print(result)
         time.sleep(0.5)
-        request = input("Do you want to do another operation (y/n): ")
+        request = input("Do you want to do another operation (y/n/q): ")
         if request == "y":
             print("Please Wait...")
             time.sleep(1.0)
             calc()
+        elif request == 'n':
+            print("Back To Console")
+            time.sleep(1)
+            console()
+        elif request == 'q':
+            time.sleep(0.5)
+            print(byetext)
+            time.sleep(0.5)
+            sys.exit()
         else:
+            print("Incorrect Parameter, back to console")
+            time.sleep(1.5)
             console()
     elif operation == "%":
         result = float(num1 % num2)
         print(result)
         time.sleep(0.5)
-        request = input("Do you want to do another operation (y/n): ")
+        request = input("Do you want to do another operation (y/n/q): ")
         if request == "y":
             print("Please Wait...")
             time.sleep(1.0)
             calc()
+        elif request == 'n':
+            print("Back To Console")
+            time.sleep(1)
+            console()
+        elif request == 'q':
+            time.sleep(0.5)
+            print(byetext)
+            time.sleep(0.5)
+            sys.exit()
         else:
+            print("Incorrect Parameter, back to console")
+            time.sleep(1.5)
             console()
     elif operation == "**":
         result = float(num1 ** num2)
         print(result)
         time.sleep(0.5)
-        request = input("Do you want to do another operation (y/n): ")
+        request = input("Do you want to do another operation (y/n/q): ")
         if request == "y":
             print("Please Wait...")
             time.sleep(1.0)
             calc()
+        elif request == 'n':
+            print("Back To Console")
+            time.sleep(1)
+            console()
+        elif request == 'q':
+            time.sleep(0.5)
+            print(byetext)
+            time.sleep(0.5)
+            sys.exit()
         else:
+            print("Incorrect Parameter, back to console")
+            time.sleep(1.5)
             console()
     elif operation == "//":
         result = float(num1 // num2)
         print(result)
         time.sleep(0.5)
-        request = input("Do you want to do another operation (y/n): ")
+        request = input("Do you want to do another operation (y/n/q): ")
         if request == "y":
             print("Please Wait...")
             time.sleep(1.0)
             calc()
+        elif request == 'n':
+            print("Back To Console")
+            time.sleep(1)
+            console()
+        elif request == 'q':
+            time.sleep(0.5)
+            print(byetext)
+            time.sleep(0.5)
+            sys.exit()
         else:
+            print("Incorrect Parameter, back to console")
+            time.sleep(1.5)
             console()
     else:
         time.sleep(0.5)
