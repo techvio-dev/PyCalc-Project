@@ -17,14 +17,20 @@
 
 # Operations:
 
-        *   Addition: +
-        *   Subtraction: -
+        *   Addition      : +
+        *   Subtraction   : -
         *   Multiplication: *
-        *   Division: /   
-        *   Modulus: %
+        *   Division      : /   
+        *   Modulus       : %
         *   Exponentiation: **   
         *   Floor division: //   
 
+# console commands:
+
+        *   Help            :  help
+        *   Calculator Mode :  calc
+        *   Square Root Mode:  sqrt
+        *   Console Version :  version
 # Dependicies: #
 *   Python 3.x
 
@@ -48,11 +54,10 @@ Example on Windows:
 
 ## if it's not working check your installed version of python (make sure you have python 3.x)
 
-> Supported Devices:
+> Supported in:
 
 *   Linux
 *   Windows
-*   Android (Under Testing)
 
 License:
 
