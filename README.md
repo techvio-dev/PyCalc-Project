@@ -27,10 +27,10 @@
 
 # console commands:
 
-        *   Help            :  help
-        *   Calculator Mode :  calc
-        *   Square Root Mode:  sqrt
-        *   Console Version :  version
+        *   Help             :  help
+        *   Calculator Mode  :  calc
+        *   Square Root Mode :  sqrt
+        *   Console Version  :  version
 # Dependicies: #
 *   Python 3.x
 
