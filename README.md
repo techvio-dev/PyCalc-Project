@@ -60,7 +60,7 @@ Example on Windows:
 
 ## if it's not working check your installed version of python (make sure you have python 3.x)
 
-> Supported in:
+> Supported on:
 
 *   Linux
 *   Windows
