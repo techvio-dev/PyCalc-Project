@@ -7,7 +7,7 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/techvio1/Pycalc-Project)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/techvio1/Pycalc-Project?color=red)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/techvio1/Pycalc-Project)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/techvio1/Pycalc-Project/CLI-Stable)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/techvio1/Pycalc-Project/CLI-Unstable)
 ![GitHub watchers](https://img.shields.io/github/watchers/techvio1/Pycalc-Project?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/techvio1/Pycalc-Project?style=social)
 
