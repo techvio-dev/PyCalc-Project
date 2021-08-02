@@ -56,11 +56,10 @@ Example on Windows:
 
 ## if it's not working check your installed version of python (make sure you have python 3.x)
 
-> Supported Devices:
+> Supported On:
 
 *   Linux
 *   Windows
-*   Android (Under Testing)
 
 License:
 
