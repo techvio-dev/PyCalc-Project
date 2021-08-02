@@ -7,29 +7,35 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/techvio1/Pycalc-Project)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/techvio1/Pycalc-Project?color=red)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/techvio1/Pycalc-Project)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/techvio1/Pycalc-Project/CLI-Dev)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/techvio1/Pycalc-Project/CLI-Stable)
 ![GitHub watchers](https://img.shields.io/github/watchers/techvio1/Pycalc-Project?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/techvio1/Pycalc-Project?style=social)
 
-> # PyCalc-Project Unstable Branch (Untested)
+> # PyCalc-Project
 
-# A powerful calculator written in python
+# A Powerful Calculator Written in Python
 
 # Operations:
 
-        *   Addition: +
-        *   Subtraction: -
+        *   Addition      : +
+        *   Subtraction   : -
         *   Multiplication: *
-        *   Division: /   
-        *   Modulus: %
+        *   Division      : /   
+        *   Modulus       : %
         *   Exponentiation: **   
         *   Floor division: //   
-        *   Square root Mode
+
+# console commands:
+
+        *   Help             :  help
+        *   Calculator Mode  :  calc
+        *   Square Root Mode :  sqrt
+        *   Console Version  :  version
+        *   Project Links    :  projectlinks
 # Dependicies: #
 *   Python 3.x
 
 # How To Get The Program And Run it:
-
 
 Clone The source code:
 
