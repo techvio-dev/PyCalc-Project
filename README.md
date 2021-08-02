@@ -57,10 +57,10 @@ Example on Windows:
 
 ## if it's not working check your installed version of python (make sure you have python 3.x)
 
-> Tested on:
+> Supported on:
 
-*   Linux (Debian)
-*   Windows 10
+*   Linux
+*   Windows
 
 License:
 
