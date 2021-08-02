@@ -17,14 +17,20 @@
 
 # Operations:
 
-        *   Addition: +
-        *   Subtraction: -
+        *   Addition      : +
+        *   Subtraction   : -
         *   Multiplication: *
-        *   Division: /   
-        *   Modulus: %
+        *   Division      : /   
+        *   Modulus       : %
         *   Exponentiation: **   
         *   Floor division: //   
-        *   Square root Mode ( Coming Soon )
+
+# console commands:
+
+        *   Help             :  help
+        *   Calculator Mode  :  calc
+        *   Square Root Mode :  sqrt
+        *   Console Version  :  version
 # Dependicies: #
 *   Python 3.x
 
