@@ -32,11 +32,12 @@
 
 # console commands:
 
-        *   Help             :  help
-        *   Calculator Mode  :  calc
-        *   Square Root Mode :  sqrt
-        *   Console Version  :  version
-        *   Project Links    :  projectlinks
+        *   Help                                               :  help
+        *   Calculator Mode                                    :  calc
+        *   Multiple Operations Calculator Mode (experimental) :  multicalc        
+        *   Square Root Mode                                   :  sqrt
+        *   Console Version                                    :  version
+        *   Project Links                                      :  projectlinks
 # Dependicies: #
 *   Python 3.x
 
