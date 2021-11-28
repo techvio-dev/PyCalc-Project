@@ -7,10 +7,10 @@ print(decore)
 print("\nWelcome To PyCalc Project: CLI Edition\n")
 print(decore)
 time.sleep(0.2)
-print("\nVersion:5.2\n")
+print("\nVersion:6.0\n")
 print("Branch: Unstable")
 print(decore)
-print("Copyright © 2021 TechVio")
+print("Copyright © 2021-2022 TechVio")
 time.sleep(0.5)
 print(decore)
 print("Licensed under MIT License: https://mit-license.org/")
@@ -266,7 +266,11 @@ def squareroot():
         print(decore)
         time.sleep(1.5)
         console()
-
+#def testing():
+#    calc = input("Type calculation: ")
+#
+#    print("Answer: " + str(eval(calc)))
+#testing()
 
 def console():
     calculator_mode = input("Select Calculator Mode: ")
@@ -274,6 +278,7 @@ def console():
         print(decore)
         print('square root mode      : "sqrt"        ')
         print('normal Calculator Mode: "calc"        ')
+        print('eval mode:            : "eval"        ')
         print('console version       : "version"     ')
         print('Project Links         : "projectlinks"')
         print(decore)
