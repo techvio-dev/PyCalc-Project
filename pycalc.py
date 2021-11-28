@@ -20,6 +20,7 @@ print("Starting The Console...")
 print(decore)
 time.sleep(1)
 
+
 def calc():
     time.sleep(1.0)
     print(decore)
@@ -220,21 +221,21 @@ def calc():
         print("Error: Incorrect Operation:")
         print(decore)
         time.sleep(0.5)
-        print("=====================")
-        print("Addition       :   +")
-        print("=====================")
-        print("Subtraction    :   -")
-        print("=====================")
-        print("Multiplication :   *")
-        print("=====================")
-        print("Division       :   /")
-        print("=====================")
-        print("Modulus        :   %")
-        print("=====================")
-        print("Exponentiation :   **")
-        print("=====================")
-        print("Floor division :   //")
-        print("=====================")
+        print(decore)
+        print("Addition      : + ")
+        print(decore)
+        print("Subtraction   : - ")
+        print(decore)
+        print("Multiplication: * ")
+        print(decore)
+        print("Division      : / ")
+        print(decore)
+        print("Modulus       : % ")
+        print(decore)
+        print("Exponentiation: **")
+        print(decore)
+        print("Floor division: //")
+        print(decore)
         time.sleep(1.0)
         calc()
 
@@ -266,21 +267,42 @@ def squareroot():
         print(decore)
         time.sleep(1.5)
         console()
-#def testing():
-#    calc = input("Type calculation: ")
-#
-#    print("Answer: " + str(eval(calc)))
-#testing()
+
+
+def multicalc():
+    calc = input("Type calculation: ")
+    print("Answer: " + str(eval(calc)))
+    print(decore)
+    request = input("Do you want to do another operation ? (y/n/q): ")
+    if request == 'y':
+        multicalc()
+    elif request == 'n':
+        print(decore)
+        print("Back to console")
+        print(decore)
+        console()
+    elif request == 'q':
+        time.sleep(0.5)
+        print(byetext)
+        time.sleep(0.5)
+        sys.exit()
+    else:
+        print(decore)
+        print("Incorrect Parameter, back to console")
+        print(decore)
+        time.sleep(1.5)
+        console()
+
 
 def console():
     calculator_mode = input("Select Calculator Mode: ")
     if calculator_mode == "help":
         print(decore)
-        print('square root mode      : "sqrt"        ')
-        print('normal Calculator Mode: "calc"        ')
-        print('eval mode:            : "eval"        ')
-        print('console version       : "version"     ')
-        print('Project Links         : "projectlinks"')
+        print('normal Calculator Mode                  : "calc"         ')
+        print('Multiple calculation mode (experimental): "multicalc"    ')
+        print('square root mode                        : "sqrt"         ')
+        print('console version                         : "version"      ')
+        print('Project Links                           : "projectlinks" ')
         print(decore)
         console()
     elif calculator_mode == "calc":
@@ -297,8 +319,10 @@ def console():
         sys.exit()
     elif calculator_mode == "projectlinks":
         print("Github: https://www.github.com/techvio1/PyCalc-Project/")
-        print("GitLab: Working on it")
+        print("GitLab: not ready yet")
         console()
+    elif calculator_mode == "multicalc":
+        multicalc()
 
     else:
         print(decore)
