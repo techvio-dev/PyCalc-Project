@@ -2,14 +2,14 @@ import sys
 decore = "-------------------------------"
 byetext = "\n\nThank you For Using Our Program\n\nExiting..."
 print(decore)
-print("\nWelcome To PyCalc Project: CLI Edition\n")
+print("\nWelcome to PyCalc project: CLI Edition\n")
 print(decore)
 print("\nVersion:6.0\n")
 print("Branch: Unstable")
 print(decore)
 print("Copyright © 2021-2022 TechVio")
 print(decore)
-print("Licensed under MIT License: https://mit-license.org/")
+print("Licensed under MIT license: https://mit-license.org/")
 print(decore)
 print("Starting The Console...")
 print(decore)
@@ -18,11 +18,11 @@ print(decore)
 def calcreq():
     request = input("Do you want to do another operation (y/n/q): ")
     if request == "y":
-        print("Please Wait...")
+        print("please wait...")
         calc()
     elif request == 'n':
         print(decore)
-        print("Back To Console")
+        print("Back to console")
         print(decore)
         console()
     elif request == 'q':
@@ -58,7 +58,7 @@ def mcalcreq():
 def sqrtreq():
     request = input("Do you want to do another operation (y/n/q): ")
     if request == "y":
-        print("Please Wait...")
+        print("Please wait...")
         sqrt()
     elif request == 'n':
         print(decore)
