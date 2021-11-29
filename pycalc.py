@@ -42,7 +42,7 @@ def mcalcreq():
         mcalc()
     elif request == 'n':
         print(decore)
-        print("Back To Console")
+        print("Back to console")
         print(decore)
         console()
     elif request == 'q':
@@ -50,7 +50,7 @@ def mcalcreq():
         sys.exit()
     else:
         print(decore)
-        print("Incorrect Parameter, back to console")
+        print("Incorrect parameter, back to console")
         print(decore)
         console()
 
