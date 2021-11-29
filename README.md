@@ -34,7 +34,7 @@
 
         *   Help                                               :  help
         *   Calculator Mode                                    :  calc
-        *   Multiple Operations Calculator Mode (experimental) :  multicalc        
+        *   Multiple Operations Calculator Mode (experimental) :  mcalc        
         *   Square Root Mode                                   :  sqrt
         *   Console Version                                    :  version
         *   Project Links                                      :  projectlinks
