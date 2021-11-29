@@ -11,7 +11,7 @@ print("Copyright © 2021-2022 TechVio")
 print(decore)
 print("Licensed under MIT license: https://mit-license.org/")
 print(decore)
-print("Starting The Console...")
+print("Starting the console...")
 print(decore)
 
 
