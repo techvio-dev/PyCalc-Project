@@ -1,189 +1,146 @@
+
 import sys
-decore = "-------------------------------"
-byetext = "\n\nThank you For Using Our Program\n\nExiting..."
-print(decore)
-print("\nWelcome to PyCalc project: CLI Edition\n")
-print(decore)
-print("\nVersion:6.0\n")
-print("Branch: Dev")
-print(decore)
-print("Copyright © 2021-2022 TechVio")
-print(decore)
-print("Licensed under MIT license: https://mit-license.org/")
-print(decore)
-print("Starting the console...")
-print(decore)
+decore = "--------------------------------------"
+qtxt = "\n\nThank you For Using Our Program\nExiting..."
+pccv = "V2.0 build 021922"
+reqtxt = "Do you want to do another operation (y/n/q): "
+btc = "\nBack to the console\n"
+badparam = "\nIncorrect parameter, back to console\n"
+print(decore+"\nWelcome to PyCalc project: CLI Edition\n"+decore+"\nVersion: 7.0\n"+"Branch: Dev\n"+decore+"\nCopyright © 2022 TechVio\n"+decore+"\nLicensed under MIT license\n"+decore+"\nPyCalc console "+pccv+"\n"+decore)
 
 
 def calcreq():
-    request = input("Do you want to do another operation (y/n/q): ")
-    if request == "y":
-        print("please wait...")
-        calc()
-    elif request == 'n':
-        print(decore)
-        print("Back to console")
-        print(decore)
-        console()
-    elif request == 'q':
-        print(byetext)
-        sys.exit()
-    else:
-        print(decore)
-        print("Incorrect Parameter, back to console")
-        print(decore)
-        console()
+    req = str.lower(input(reqtxt))
+    match req:
+        case 'y':
+            calc()
+        case 'n':
+            print(decore + btc + decore)
+            console()
+        case 'q':
+            print(qtxt)
+            sys.exit()
+        case _:
+            print(decore + badparam + decore)
+            console()
 
 
 def mcalcreq():
-    request = input("Do you want to do another operation (y/n/q): ")
-    if request == "y":
-        print("Please Wait...")
-        mcalc()
-    elif request == 'n':
-        print(decore)
-        print("Back to console")
-        print(decore)
-        console()
-    elif request == 'q':
-        print(byetext)
-        sys.exit()
-    else:
-        print(decore)
-        print("Incorrect parameter, back to console")
-        print(decore)
-        console()
+    req = str.lower(input(reqtxt))
+    match req:
+        case 'y':
+            mcalc()
+        case 'n':
+            print(decore+btc+decore)
+            console()
+        case 'q':
+            print(qtxt)
+            sys.exit()
+        case _:
+            print(decore+badparam+decore)
+            console()
 
 
 def sqrtreq():
-    request = input("Do you want to do another operation (y/n/q): ")
-    if request == "y":
-        print("Please wait...")
-        sqrt()
-    elif request == 'n':
-        print(decore)
-        print("Back to console")
-        print(decore)
-        console()
-    elif request == 'q':
-        print(byetext)
-        sys.exit()
-    else:
-        print(decore)
-        print("Incorrect parameter, back to console")
-        print(decore)
-        console()
+    req = str.lower(input(reqtxt))
+    match req:
+        case 'y':
+            sqrt()
+        case 'n':
+            print(decore + btc + decore)
+            console()
+        case 'q':
+            print(qtxt)
+            sys.exit()
+        case _:
+            print(decore + badparam + decore)
+            console()
 
 
 def calc():
-
     print(decore)
-    num1 = float(input("Enter Your First Number: "))
+    n1 = float(input("Enter Your First Number: "))
     print(decore)
-    operation = input("Enter Your Operation: ")
+    op = input("Enter Your Operation: ")
     print(decore)
-    num2 = float(input("Enter Your Second Number:"))
+    n2 = float(input("Enter Your Second Number:"))
     print(decore)
-    if operation == "*":
-        result = float(num1 * num2)
-        print(result)
-        calcreq()
-    elif operation == "+":
-        result = float(num1 + num2)
-        print(result)
-        calcreq()
-    elif operation == "-":
-        result = float(num1 - num2)
-        print(result)
-        calcreq()
-    elif operation == "/":
-        result = float(num1 / num2)
-        print(result)
-        calcreq()
-    elif operation == "%":
-        result = float(num1 % num2)
-        print(result)
-        calcreq()
-    elif operation == "**":
-        result = float(num1 ** num2)
-        print(result)
-        calcreq()
-    elif operation == "//":
-        result = float(num1 // num2)
-        print(result)
-        calcreq()
-    else:
-        print(decore)
-        print("Error: Incorrect Operation:")
-        print(decore)
-        print(decore)
-        print("Addition      : +")
-        print(decore)
-        print("Subtraction   : -")
-        print(decore)
-        print("Multiplication: *")
-        print(decore)
-        print("Division      : /")
-        print(decore)
-        print("Modulus       : %")
-        print(decore)
-        print("Exponentiation: **")
-        print(decore)
-        print("Floor division: //")
-        print(decore)
-        calc()
+    match op:
+        case "*":
+            result = float(n1*n2)
+            print(result)
+            calcreq()
+        case "+":
+            result = float(n1+n2)
+            print(result)
+            calcreq()
+        case "-":
+            result = float(n1-n2)
+            print(result)
+            calcreq()
+        case "/":
+            result = float(n1/n2)
+            print(result)
+            calcreq()
+        case "%":
+            result = float(n1 % n2)
+            print(result)
+            calcreq()
+        case "**":
+            result = float(n1**n2)
+            print(result)
+            calcreq()
+        case "//":
+            result = float(n1//n2)
+            print(result)
+            calcreq()
+        case _:
+            print("Error: Incorrect operation:"+"\nAddition      : +"+"\nSubtraction   : -"+"\nMultiplication: *"+"\nDivision      : /"+"\nModulus       : %"+"\nExponentiation: **"+"\nFloor division: //")
+            calc()
 
 
 def sqrt():
-    from math import sqrt as sqrtmath
+    from math import sqrt
     print(decore)
     num = float(input("Enter A Number: "))
     print(decore)
-    result = sqrtmath(num)
+    result = sqrt(num)
     print(result)
     print(decore)
     sqrtreq()
 
 
 def mcalc():
-    calc = input("Type calculation: ")
-    print(str(eval(calc)))
+    calcul = input("Type calculation: ")
+    print(str(eval(calcul)))
     print(decore)
     mcalcreq()
 
 
 def console():
-    calcmode = input("Select Calculator Mode: ")
-    if calcmode == "help":
-        print(decore)
-        print('normal Calculator Mode             : "calc"')
-        print('Multiple operations calculator mode: "mcalc"')
-        print('square root mode                   : "sqrt"')
-        print('console version                    : "version"')
-        print('Project Links                      : "projectlinks"')
-        print(decore)
-        console()
-    elif calcmode == "calc":
-        calc()
-    elif calcmode == "sqrt":
-        sqrt()
-    elif calcmode == "version":
-        print("pycalc console v1.3 build 112821")
-        console()
-    elif calcmode == "exit":
-        print(byetext)
-        sys.exit()
-    elif calcmode == "projectlinks":
-        print("Github: https://www.github.com/techvio1/PyCalc-Project/")
-        print("GitLab: not ready yet")
-        console()
-    elif calcmode == "mcalc":
-        mcalc()
-    else:
-        print(decore)
-        print("Incorrect mode: Type 'help' for more information")
-        print(decore)
-        console()
+    calcmode = str.lower(input("Select Calculator Mode: "))
+    match calcmode:
+        case "help":
+            print(decore+'\nNormal calculator mode             : "calc"'+'\nMulti-operations calculator mode: "mcalc"'+'\nsquare root mode                   : "sqrt"'+'\nConsole version                    : "version"'+'\nProject links                      : "projectlinks"\n'+decore)
+            console()
+        case "calc":
+            calc()
+        case "mcalc":
+            mcalc()
+        case "sqrt":
+            sqrt()
+        case "version":
+            print(pccv)
+            console()
+        case "exit":
+            print(qtxt)
+            sys.exit()
+        case "projectlinks":
+            print("Github: https://www.github.com/techvio1/PyCalc-Project/"+"\nGitLab: Working on final touches")
+            console()
+        case _:
+            print(decore+"\nIncorrect mode: Type 'help' for more informations\n"+decore)
+            console()
 
 
 console()
