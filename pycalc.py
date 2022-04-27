@@ -5,7 +5,7 @@ pccv = "V2.0 build 021922"
 reqtxt = "Do you want to do another operation (y/n/q): "
 btc = "\nBack to the console\n"
 badparam = "\nIncorrect parameter, back to console\n"
-print(decore+"\nWelcome to PyCalc project: CLI Edition\n"+decore+"\nVersion: 7.0\n"+"Branch: Unstable\n"+decore+"\nCopyright © 2022 TechVio\n"+decore+"\nLicensed under MIT license\n"+decore+"\nPyCalc console "+pccv+"\n"+decore)
+print(decore+"\nWelcome to PyCalc project: CLI Edition\n"+decore+"\nVersion: 7.0\n"+"Branch: Stable\n"+decore+"\nCopyright © 2022 TechVio\n"+decore+"\nLicensed under MIT license\n"+decore+"\nPyCalc console "+pccv+"\n"+decore)
 
 
 def calcreq():
