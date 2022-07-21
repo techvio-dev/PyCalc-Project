@@ -33,22 +33,22 @@
 # How To Get The Program And Run it:
 Clone The source code:
         
-        git clone https:0//github.com/techvio1/PyCalc-Project/
+        git clone --branch CLI-Unstable https://github.com/techvio1/PyCalc-Project/
 
 Run The Program using python interpreter:
         
-        python3 /Path/of/the/source/code/main.py
+        python3 /Path/of/the/source/code/pycalc.py
         
 Example on linux:
 
-        python3 /home/YourLinuxUsername/Downloads/Pycalc-Project/main.py
+        python3 /home/YourLinuxUsername/Downloads/Pycalc-Project/pycalc.py
         
 Example on Windows:
 
-        python3 C:\Users\YourWindowsUsername\Downloads\Pycalc-Project\main.py
+        python3 C:\Users\YourWindowsUsername\Downloads\Pycalc-Project\pycalc.py
         
-## if it's not working check your installed version of python (make sure you have python 3.10)
-> Supported on:
+## if it's not working check your installed version of python (make sure you have python 3.10 or higher)
+> Tested on:
 *   Linux
 *   Windows
 License:

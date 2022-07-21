@@ -5,7 +5,7 @@ pccv = "V2.0 build 021922"
 reqtxt = "Do you want to do another operation (y/n/q): "
 btc = "\nBack to the console\n"
 badparam = "\nIncorrect parameter, back to console\n"
-print(decore+"\nWelcome to PyCalc project: CLI Edition\n"+decore+"\nVersion: 7.0\n"+"Branch: Unstable\n"+decore+"\nCopyright © 2022 TechVio\n"+decore+"\nLicensed under MIT license\n"+decore+"\nPyCalc console "+pccv+"\n"+decore)
+print(decore+"\nWelcome to PyCalc project: CLI Edition\n"+decore+"\nVersion: 7.1\n"+"Branch: Unstable\n"+decore+"\nCopyright © 2022 TechVio\n"+decore+"\nLicensed under MIT license\n"+decore+"\nPyCalc console "+pccv+"\n"+decore)
 
 
 def calcreq():
@@ -58,61 +58,44 @@ def sqrtreq():
 
 def calc():
     print(decore)
-    n1 = float(input("Enter Your First Number: "))
+    n1 = float(input("Enter your first number: "))
     print(decore)
-    op = input("Enter Your Operation: ")
+    op = input("Enter your operation: ")
     print(decore)
-    n2 = float(input("Enter Your Second Number:"))
+    n2 = float(input("Enter your second number:"))
     print(decore)
     match op:
         case "*":
-            result = float(n1*n2)
-            print(result)
-            calcreq()
+            print(float(n1*n2))
         case "+":
-            result = float(n1+n2)
-            print(result)
-            calcreq()
+            print(float(n1+n2))
         case "-":
-            result = float(n1-n2)
-            print(result)
-            calcreq()
+            print(float(n1-n2))
         case "/":
-            result = float(n1/n2)
-            print(result)
-            calcreq()
+            print(float(n1/n2))
         case "%":
-            result = float(n1 % n2)
-            print(result)
-            calcreq()
+            print(float(n1%n2))
         case "**":
-            result = float(n1**n2)
-            print(result)
-            calcreq()
+            print(float(n1**n2))
         case "//":
-            result = float(n1//n2)
-            print(result)
-            calcreq()
+            print(float(n1//n2))
         case _:
             print("Error: Incorrect operation:"+"\nAddition      : +"+"\nSubtraction   : -"+"\nMultiplication: *"+"\nDivision      : /"+"\nModulus       : %"+"\nExponentiation: **"+"\nFloor division: //")
             calc()
-
+    calcreq()
 
 def sqrt():
     from math import sqrt
     print(decore)
-    num = float(input("Enter A Number: "))
+    num = float(input("Enter a number: "))
     print(decore)
-    result = sqrt(num)
-    print(result)
-    print(decore)
+    print(sqrt(num) + "\n" + decore)
     sqrtreq()
 
 
 def mcalc():
     calcul = input("Type calculation: ")
-    print(str(eval(calcul)))
-    print(decore)
+    print(str(eval(calcul)) + "\n" + decore)
     mcalcreq()
 
 
@@ -120,7 +103,7 @@ def console():
     calcmode = str.lower(input("Select Calculator Mode: "))
     match calcmode:
         case "help":
-            print(decore+'\nNormal calculator mode             : "calc"'+'\nMulti-operations calculator mode: "mcalc"'+'\nsquare root mode                   : "sqrt"'+'\nConsole version                    : "version"'+'\nProject links                      : "projectlinks"\n'+decore)
+            print(decore+'\nNormal calculator mode             : "calc"'+'\nMulti-operations calculator mode: "mcalc"'+'\nSquare root mode                   : "sqrt"'+'\nConsole version                    : "version"'+'\nProject links                      : "projectlinks"\n'+decore)
             console()
         case "calc":
             calc()
@@ -143,3 +126,4 @@ def console():
 
 
 console()
+
