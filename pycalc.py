@@ -3,8 +3,8 @@ decore = "--------------------------------------"
 qtxt = "\n\nThank you For Using Our Program\nExiting..."
 pccv = "V2.0 build 021922"
 reqtxt = "Do you want to do another operation (y/n/q): "
-btc = "\nBack to the console\n"
-badparam = "\nIncorrect parameter, back to console\n"
+btc = decore + "\nBack to the console\n " + decore
+badparam = decore + "\nIncorrect parameter, back to console\n" + decore
 print(decore+"\nWelcome to PyCalc project: CLI Edition\n"+decore+"\nVersion: 7.1\n"+"Branch: Unstable\n"+decore+"\nCopyright © 2022 TechVio\n"+decore+"\nLicensed under MIT license\n"+decore+"\nPyCalc console "+pccv+"\n"+decore)
 
 
@@ -14,13 +14,13 @@ def calcreq():
         case 'y':
             calc()
         case 'n':
-            print(decore + btc + decore)
+            print(btc)
             console()
         case 'q':
             print(qtxt)
             sys.exit()
         case _:
-            print(decore + badparam + decore)
+            print(badparam)
             console()
 
 
@@ -30,13 +30,13 @@ def mcalcreq():
         case 'y':
             mcalc()
         case 'n':
-            print(decore+btc+decore)
+            print(btc)
             console()
         case 'q':
             print(qtxt)
             sys.exit()
         case _:
-            print(decore+badparam+decore)
+            print(badparam)
             console()
 
 
@@ -46,14 +46,13 @@ def sqrtreq():
         case 'y':
             sqrt()
         case 'n':
-            print(decore + btc + decore)
+            print(btc)
             console()
         case 'q':
             print(qtxt)
             sys.exit()
         case _:
-            print(decore + badparam + decore)
-            console()
+            print(badparam)
 
 
 def calc():
