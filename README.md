@@ -11,7 +11,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/techvio1/Pycalc-Project?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/techvio1/Pycalc-Project?style=social)
 > # PyCalc-Project
-# A Powerful GUI Calculator Written in Python (under construction)
+# A Powerful GUI Calculator Written in Python (probably will never be out :P)
 
 License:
 MIT License: https://mit-license.org/
