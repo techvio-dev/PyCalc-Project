@@ -13,5 +13,4 @@
 > # PyCalc-Project
 # A Powerful GUI Calculator Written in Python (probably will never be out :P)
 
-License:
-MIT License: https://mit-license.org/
+Licensed under MIT License: https://mit-license.org/
